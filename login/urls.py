@@ -4,7 +4,6 @@ from home.views import *
 from .views import *
 
 urlpatterns = [
-    url('', login),
     url(r'^login/$', login, name='login'),
     url(r'^adduser/$', adduser, name="adduser"),
     url(r'^signup/$', signup),
@@ -16,4 +15,6 @@ urlpatterns = [
     url(r'^index/$', index, name="home"),
     url(r'^profileupdate/$', profileupdate),
     url(r'^profileupdate/login/update/$', update),
+    url(r'^$', login),
+
 ]
