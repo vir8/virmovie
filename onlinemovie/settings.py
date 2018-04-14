@@ -26,7 +26,7 @@ SECRET_KEY = '87ya1kw+2k&yt1oyow!@0&=65ftmtw22g4r9&1fn$bt#h(qw5d'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['127.0.0.1', 'https://virmovie.herokuapp.com']
+ALLOWED_HOSTS = ['127.0.0.1', 'virmovie.herokuapp.com']
 
 # Application definition
 
